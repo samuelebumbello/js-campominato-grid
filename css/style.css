@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(0, 92, 0);
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(9, 158, 108);
+    height: 600px;
+    width: 600px;
+    margin: 0 auto;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% / 10);
+    aspect-ratio: 1 / 1;
+    background-color: rgb(17, 29, 26);
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
